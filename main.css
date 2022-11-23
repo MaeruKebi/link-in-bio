@@ -1,0 +1,39 @@
+body{
+    background:antiquewhite;
+    color:black;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header > img{
+    border-radius: 100%;
+    border: 2px solid black;
+    margin-top: 1em;
+    margin-bottom: -1.5em;
+    height: auto;
+    max-width: 50%;
+
+}
+
+ul{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0 auto;
+    margin-top: -3em;
+    padding: 2em;
+}
+
+ul > li{
+    background-color: black;
+    border-radius: 5em;
+    padding: 1em;
+    margin: 1em auto;
+    box-shadow: 0 0 1em #000a;
+    text-align: center;
+}
+ul >li >a{
+    color: whitesmoke;
+    text-decoration: none;
+}
